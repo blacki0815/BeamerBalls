@@ -1,23 +1,3 @@
-"""
-Kalibrierungs-Tool für Notizzettel-Farberkennung
-=================================================
-Dieses Skript hilft dir, die richtigen HSV-Werte für deine
-neongelben Notizzettel zu finden.
-
-Installation:
-    pip3 install opencv-python numpy
-
-Starten:
-    python3 kalibrierung.py
-
-Bedienung:
-    - 6 Schieberegler erscheinen (H_min, H_max, S_min, S_max, V_min, V_max)
-    - Klebe einen Notizzettel an die Wand, beleuchte wie später beim Projekt
-    - Schieberegler so einstellen, dass der Zettel weiß leuchtet, alles andere schwarz ist
-    - Die aktuellen Werte werden live im Terminal angezeigt
-    - Q zum Beenden und Werte notieren
-"""
-
 import cv2
 import numpy as np
 
