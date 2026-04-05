@@ -1,19 +1,3 @@
-"""
-Homographie-Kalibrierung
-========================
-Einmalig ausführen um die exakte Transformation
-zwischen Kamera und Beamer zu berechnen.
-
-Ablauf:
-1. Beamer projiziert 4 Kreise an die Wand
-2. Du klickst im Kamerabild auf jeden dieser Kreise
-3. Die Homographie-Matrix wird in 'homographie.npy' gespeichert
-4. beamer_balls.py lädt diese Datei automatisch
-
-Starten:
-    python3 homographie_kalibrierung.py
-"""
-
 import cv2
 import numpy as np
 import os
