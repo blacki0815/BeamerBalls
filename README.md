@@ -1,5 +1,5 @@
 # RealTimeBlockComputing — Interactive Physics Projection
-# 🎱 "Beamer Balls"
+## 🎱 "Beamer Balls"
 
 An interactive real-time augmented reality installation that projects physics-simulated balls onto a wall. Physical sticky notes attached to the wall act as collision surfaces — the camera detects them and the balls bounce off them realistically.
 
